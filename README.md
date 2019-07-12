@@ -28,22 +28,27 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the DOM?
+#### 1. What is the DOM?
+The Document Object Model (DOM) is the browser's interpretation and representation of your code. It's what the user actually sees, and it can be manipulated separately from your source code, leaving your source code intact.
 
-2. What is an event?
+#### 2. What is an event?
+An event is an action or interaction that happens when the user or your code interacts with things. There can be events when the user interacts with your page, such as scrolling or clicking on things, and when the page interacts with itself or outside sources, like when calling an API.
 
-3. What is an event listener?
+#### 3. What is an event listener?
+An event listener is something you add to an object that "listens" for a specified event taking place on that element. It is used to capture and trigger the event response you've coded in.
 
-4. Why would we convert a NodeList into an Array?
+#### 4. Why would we convert a NodeList into an Array?
+Arrays have more methods available to them, and thus are more flexible.
 
-5. What is a component?
+#### 5. What is a component?
+A bit of reusable, ideally self-contained code that performs a specific function. A component could be something like a vanilla JS carousel or a React component that injects your navbar into the page.
 
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [X Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
